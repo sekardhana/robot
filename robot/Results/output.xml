@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20160825 21:04:02.196" generator="Robot 3.0 (Python 2.7.12 on win32)">
+<suite source="D:\project\amazon\robot\Amazon.robot" id="s1" name="Amazon">
+<test id="s1-t1" name="Test Case 1">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://amazon.com</arg>
+</arguments>
+<msg timestamp="20160825 21:04:02.321" level="INFO">Opening browser 'chrome' to base url 'http://amazon.com'</msg>
+<status status="PASS" endtime="20160825 21:04:11.441" starttime="20160825 21:04:02.321"></status>
+</kw>
+<kw name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20160825 21:04:14.653" starttime="20160825 21:04:11.441"></status>
+</kw>
+<status status="PASS" endtime="20160825 21:04:14.653" critical="yes" starttime="20160825 21:04:02.321"></status>
+</test>
+<status status="PASS" endtime="20160825 21:04:14.653" starttime="20160825 21:04:02.196"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Amazon" pass="1">Amazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
